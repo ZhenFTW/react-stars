@@ -192,7 +192,7 @@ class ReactStars extends Component {
       const style = Object.assign({}, defaultStyles, {
         color: star.active ? color2 : color1,
         cursor: edit ? 'pointer' : 'default',
-        fontSize: `${size}px`
+        fontSize: `${size}vh`
       })
       return (
         <span
