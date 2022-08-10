@@ -235,7 +235,7 @@ var ReactStars = function (_Component) {
         var style = _extends({}, defaultStyles, {
           color: star.active ? color2 : color1,
           cursor: edit ? 'pointer' : 'default',
-          fontSize: size + 'px'
+          fontSize: size + 'vh'
         });
         return _react2.default.createElement(
           'span',
